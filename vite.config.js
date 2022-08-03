@@ -20,9 +20,9 @@ export default defineConfig({
       },
     },
   },
-  plugins: [
-    legacy({
-      targets: ["defaults", "not IE 11"],
-    }),
-  ],
+  // plugins: [
+  //   legacy({
+  //     targets: ["defaults", "not IE 11"],
+  //   }),
+  // ],
 });
