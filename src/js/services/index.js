@@ -1,0 +1,1 @@
+export { manageLanguages } from "./lang";
