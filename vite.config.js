@@ -13,10 +13,11 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(root, "index.html"),
-        about: resolve(root, "about", "index.html"),
-        skills: resolve(root, "skills", "index.html"),
-        projects: resolve(root, "projects", "index.html"),
-        hire: resolve(root, "hire", "index.html"),
+        about: resolve(root, "pages/about", "index.html"),
+        skills: resolve(root, "pages/skills", "index.html"),
+        experience: resolve(root, "pages/experience", "index.html"),
+        projects: resolve(root, "pages/projects", "index.html"),
+        hire: resolve(root, "pages/hire", "index.html"),
       },
     },
   },

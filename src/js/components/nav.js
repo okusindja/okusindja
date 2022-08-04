@@ -16,31 +16,31 @@ export function buildNav() {
           class="container__cube-menu__nav__nav-list__item"
           style="--index: 5"
         >
-          <a href="/about/#en"><h2>About Me</h2></a>
+          <a href="/pages/about/#en"><h2>About Me</h2></a>
         </li>
         <li
           class="container__cube-menu__nav__nav-list__item"
           style="--index: 4"
         >
-          <a href="/skills/#en"><h2>My Skills</h2></a>
+          <a href="/pages/skills/#en"><h2>My Skills</h2></a>
         </li>
         <li
           class="container__cube-menu__nav__nav-list__item"
           style="--index: 3"
         >
-          <a href="/experience/#en"><h2>Expreience</h2></a>
+          <a href="/pages/experience/#en"><h2>Expreience</h2></a>
         </li>
         <li
           class="container__cube-menu__nav__nav-list__item"
           style="--index: 2"
         >
-          <a href="/projects/#en"><h2>My Projects</h2></a>
+          <a href="/pages/projects/#en"><h2>My Projects</h2></a>
         </li>
         <li
           class="container__cube-menu__nav__nav-list__item"
           style="--index: 1"
         >
-          <a href="/hire/#en"><h2>Buy me a coffee</h2></a>
+          <a href="/pages/hire/#en"><h2>Buy me a coffee</h2></a>
         </li>
       </ul>
     </nav>
