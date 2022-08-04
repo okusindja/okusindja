@@ -1,11 +1,142 @@
-import "../scss/main.scss";
-import { buildNav, manageLanguages } from "../js/init";
+<!DOCTYPE html>
 
-const app = document.getElementById("app");
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="portfolio css javascript html Okusindja Kussy frontend designer web-designer web"
+    />
+    <title>Okusindja de Almeida - FrontEnd Dev | Skills</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="background-stripes"></div>
+    <section class="container">
+      <div class="container__cube-menu">
+        <nav class="container__cube-menu__nav">
+          <ul class="container__cube-menu__nav__nav-list">
+            <li
+              class="container__cube-menu__nav__nav-list__item"
+              style="--index: 6"
+            >
+              <a href="/#en"><h2>Home</h2></a>
+            </li>
 
-app.innerHTML = `
-<section class="container">
-      <div class="container__cube-menu"></div>
+            <li
+              class="container__cube-menu__nav__nav-list__item"
+              style="--index: 5"
+            >
+              <a href="/about/#en"><h2>About Me</h2></a>
+            </li>
+            <li
+              class="container__cube-menu__nav__nav-list__item"
+              style="--index: 4"
+            >
+              <a href="/skills/#en"><h2>My Skills</h2></a>
+            </li>
+            <li
+              class="container__cube-menu__nav__nav-list__item"
+              style="--index: 3"
+            >
+              <a href="/experience/#en"><h2>Expreience</h2></a>
+            </li>
+            <li
+              class="container__cube-menu__nav__nav-list__item"
+              style="--index: 2"
+            >
+              <a href="/projects/#en"><h2>My Projects</h2></a>
+            </li>
+            <li
+              class="container__cube-menu__nav__nav-list__item"
+              style="--index: 1"
+            >
+              <a href="/hire/#en"><h2>Buy me a coffee</h2></a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="container__cube-menu__socials">
+          <ul class="container__cube-menu__socials-list">
+            <li class="container__cube-menu__socials-list__item">
+              <i class="fa-brands fa-github"></i>
+              <span
+                ><a
+                  href="https://github.com/lord-kraze"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
+                  lord-kraze</a
+                ></span
+              >
+            </li>
+            <li class="container__cube-menu__socials-list__item">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <span
+                ><a
+                  href="https://www.linkedin.com/in/okusindja-rodrigues-de-almeida-9b9186227/"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
+                  Okusindja de Almeida</a
+                ></span
+              >
+            </li>
+            <li class="container__cube-menu__socials-list__item">
+              <i class="fa-solid fa-at"></i>
+              <span
+                ><a
+                  href="okusindja@gmail.com"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
+                  okusindja@gmail.com
+                </a></span
+              >
+            </li>
+            <li class="container__cube-menu__socials-list__item">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span
+                ><a
+                  href="tel:+244956035826"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
+                  +244-956035826
+                </a></span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
 
       <div class="container__content">
         <div id="skills" class="content__page">
@@ -151,28 +282,7 @@ app.innerHTML = `
       </div>
     </section>
     <footer class="footer"></footer>
-`;
-
-function setSkillInformationOnMouseOver() {
-  let skillListItems = document.querySelectorAll(
-    "#skills ul li .content__page__body__information"
-  );
-
-  if (skillListItems) {
-    skillListItems.forEach((skillListItem) => {
-      skillListItem.addEventListener("mouseover", () => {
-        skillListItem.previousElementSibling.style.transform = "scale(1)";
-      });
-      skillListItem.addEventListener("mouseout", () => {
-        skillListItem.previousElementSibling.style.transform = "scale(0)";
-      });
-    });
-  }
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  setSkillInformationOnMouseOver();
-  manageLanguages();
-  setSkillInformationOnMouseOver();
-  buildNav();
-});
+    <div id="app"></div>
+    <script type="module" src="skills.js"></script>
+  </body>
+</html>

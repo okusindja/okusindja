@@ -4,24 +4,24 @@ import { buildNav, manageLanguages } from "./js/init";
 const app = document.getElementById("app");
 
 app.innerHTML = `
-<section class="container">
-  <div class="container__cube-menu"></div>
-  <div class="container__content">
-    <div id="home" class="content__page">
-      <div class="content__page__body">
-        <h1 id="name" class="full-name">
-          I am <br />
-          Okusindja <br />
-          de Almeida
-        </h1>
-      </div>
-      <!-- <div class="content__page__cool-message">
-        <span>I have something cool to show you :)</span>
-      </div> -->
-    </div>
-  </div>
-</section>
-<footer class="footer"></footer>
+// <section class="container">
+//   <div class="container__cube-menu"></div>
+//   <div class="container__content">
+//     <div id="home" class="content__page">
+//       <div class="content__page__body">
+//         <h1 id="name" class="full-name">
+//           I am <br />
+//           Okusindja <br />
+//           de Almeida
+//         </h1>
+//       </div>
+//       <!-- <div class="content__page__cool-message">
+//         <span>I have something cool to show you :)</span>
+//       </div> -->
+//     </div>
+//   </div>
+// </section>
+// <footer class="footer"></footer>
 `;
 
 function transformTextIntoBlockText() {
