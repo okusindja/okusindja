@@ -18,16 +18,13 @@ let lang = {
         <article class="content__page__body__information__body-text">
           Hello there, my name is Okusindja, but you can call me by my
           nickname "Kussy", I'm a young angolan guy seeking for better
-          opportunities in my <b>Frontend</b> career. When I'm not coding,
-          I'm hanging out with friends and family, and praying as well. I
-          consider myself a clever guy, I do like to talk about theology
-          and conspirancy theory, I do art, like graffities and writting
-          books, so I also consider myself as an css artist.
+          opportunities in my <b>Frontend</b> career. I studied in Angola,
+          in ISPTEC - Instituto Superior Politécnico de Tecnologias E
+          Ciências, in IT Engineering Course. I love coding and studying
+          new technologies, and discuss theology, philosophy, and I am a
+          book writer.
         </article>
       </div>
-    </div>
-    <div class="content__page__cool-message">
-      <span>Just know about me, I'm a nice person :)</span>
     </div>
   </div>
     `,
@@ -168,10 +165,38 @@ let lang = {
         </li>
       </ul>
     </div>
+    <span class="skills-user-hint"
+            >Tap on my skills, Am I that good?</span
+          >
     <div class="content__page__cool-message">
-      <span>Take a look at my stats, Am I that good?</span>
+      <span>Hover on my skills, Am I that good?</span>
     </div>
   </div>`,
+    myExperience: `
+  <div id="experience" class="content__page">
+        <div class="content__page__body">
+          <div class="content__page__body__information">
+            <h3 class="content__page__body__information__title">
+              What's my experience?
+            </h3>
+            <article class="content__page__body__information__body-text">
+              <b>2021-Current:</b> NSDev as Junior Frontend Developer. Working
+              mainly with JavaScript, HTML, CSS and ReactJS as main Framework.
+              <br />
+              <b>2021-Current:</b> FRN Cubo as Evolution Team Frontend Dev
+              Member, and I'm fixing bugs, analying data and writting the best
+              and cleanest code as possible, using Mainly VTEX CMS, Vtex IO
+              and Vanilla JavaScript.
+              <br />
+              <b>2018-2021:</b>. Freelancer as Fullstack Web Dev and UI/UX
+              Designer, using every trend technology in the market such as
+              Angular 9, ReactJS, MySQL, etc, but mainly using JavaScript as
+              the base language.
+            </article>
+          </div>
+        </div>
+      </div>
+  `,
     myProjectsPage: `
   <div id="projects" class="content__page">
           <div class="content__page__body">
@@ -273,19 +298,14 @@ let lang = {
       <div class="content__page__body__information">
         <h3 class="content__page__body__information__title">Quem sou eu?</h3>
         <article class="content__page__body__information__body-text">
-          Olá, meu nome é Okusindja de Almeida, mas pode me chamar pelo meu 
-          apelido: "Kussy" que facilita, Eu sou um jovem angolano á procura de 
-          novas oportunidades para minha carreira de <b>Desenvolvidor Frontend</b>. 
-          Quando não estou a desenvolver relíqueas, Estou reunido com amigos, ou com a família
-          , e também gosto de estar a orar e meditar. Eu me considero um rapaz inteligente 
-          como todo programador, Amo falar de teologia,
-          ciência e teoria da conspiração, Sou artista, faço graffities e escrevo livros
-          , e me considero um artista CSS hehe.
+          Olá! Eu me chamo Okusindja, mas podes tratar-me pelo meu apelido
+          "Kussy", Sou um jovem angolano à caça das melhores oportunidades para
+          a minha carreira <b>Frontend Dev</b>. Eu estudei em Angola,
+          no ISPTEC - Instituto Superior Politécnico de Tecnologias E
+          Ciências, no curso de Engenharia Informática. Eu amo estudar e programar
+          em novas tecnologias, discutir, teologia, filosofia e também sou escritor.
         </article>
       </div>
-    </div>
-    <div class="content__page__cool-message">
-      <span>Saiba mais sobre mim, Sou uma pessoa boa =)</span>
     </div>
   </div>
     `,
@@ -378,7 +398,7 @@ let lang = {
         </li>
 
         <li>
-          <div class="speech-bubble">
+          <div class="speech-bubble react-pt">
             <span
               >Aprendendo mais sobre essa biblioteca JS e desenvolvendo Apps com muita alegria.
               De momento esta é a principal biblioteca/Framework que uso no momento. Estou estudando
@@ -425,10 +445,38 @@ let lang = {
         </li>
       </ul>
     </div>
+    <span class="skills-user-hint"
+            >Toque em uma habilidade, há qualidade?</span
+          >
     <div class="content__page__cool-message">
-      <span>Olhe as minhas habilidades, há qualidade?</span>
+      <span>Passe o mouse sobre as habilidades, há qualidade?</span>
     </div>
   </div>`,
+    myExperience: `
+    <div id="experience" class="content__page">
+          <div class="content__page__body">
+            <div class="content__page__body__information">
+              <h3 class="content__page__body__information__title">
+                Qual é a minha experiência?
+              </h3>
+              <article class="content__page__body__information__body-text">
+                <b>2021-Current:</b> NSDev como Junior Frontend Developer. Trablhando
+                principalmente com JavaScript, HTML, CSS e ReactJS Framework principal.
+                <br />
+                <b>2021-Current:</b> FRN Cubo como Membro do Team de Evolução, Frontend Dev
+                , resolvo bugs, analiso código e dados, e escrendo o melhor e mais limpo
+                código possível, usando principalmente: VTEX CMS, Vtex IO
+                e Vanilla JavaScript.
+                <br />
+                <b>2018-2021:</b>. Freelancer como Fullstack Web Dev e UI/UX
+                Designer, usando toda tecnologia de destaque do merca como:
+                Angular 9, ReactJS, MySQL, etc, mas precisamente usando JavaScript como
+                linguagem base.
+              </article>
+            </div>
+          </div>
+        </div>
+    `,
     myProjectsPage: `
   <div id="projects" class="content__page">
           <div class="content__page__body">
@@ -470,9 +518,6 @@ let lang = {
                 que muitos virão em breve! =)
               </article>
             </div>
-          </div>
-          <div class="content__page__cool-message">
-            <span>Estas são as minhas obras-primas! Veja o meu GitHub</span>
           </div>
         </div>
   `,
@@ -518,6 +563,7 @@ export function manageLanguages() {
   let homePage = document.querySelector("#home");
   let aboutPage = document.querySelector("#about");
   let skillsPage = document.querySelector("#skills");
+  let experiencePage = document.querySelector("#experience");
   let projectsPage = document.querySelector("#projects");
   let hirePage = document.querySelector("#hire");
   let languageMenu = `
@@ -532,7 +578,6 @@ export function manageLanguages() {
   );
   container.insertAdjacentHTML("afterend", languageMenu);
 
-  // if (window.location.hash) {
   if (window.location.hash === "#pt") {
     menuItems.forEach((menuItem) => {
       let actualRef = menuItem.getAttribute;
@@ -544,6 +589,8 @@ export function manageLanguages() {
       container.innerHTML = lang.pt.aboutMePage;
     } else if (skillsPage) {
       container.innerHTML = lang.pt.mySkillsPage;
+    } else if (experiencePage) {
+      container.innerHTML = lang.pt.myExperience;
     } else if (projectsPage) {
       container.innerHTML = lang.pt.myProjectsPage;
     } else if (hirePage) {
@@ -559,5 +606,4 @@ export function manageLanguages() {
       location.reload(true);
     });
   });
-  // }
 }

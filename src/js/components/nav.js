@@ -1,13 +1,7 @@
 export function buildNav() {
   let cubeMenuContainer = document.querySelector(".container__cube-menu");
-  let menuMobileOpenButton = document.querySelector(
-    ".container__cube-menu--mobile .fa-bars"
-  );
-  let menuMobileCloseButton = document.querySelector(
-    ".container__cube-menu--mobile .fa-times"
-  );
-  let menuMobileContainer = document.querySelector(
-    ".container__cube-menu--mobile__menu-list"
+  let cubeMenuContainerMobile = document.querySelector(
+    ".container__cube-menu--mobile"
   );
 
   let html = {
@@ -72,7 +66,7 @@ export function buildNav() {
           <i class="fa-brands fa-linkedin-in"></i>
           <span
             ><a
-              href="https://www.linkedin.com/in/okusindja-rodrigues-de-almeida-9b9186227/"
+              href="https://www.linkedin.com/in/okusindja-rodrigues-de-almeida"
               target="blank"
               rel="noopener noreferrer"
             >
@@ -107,6 +101,7 @@ export function buildNav() {
       </ul>
     </div>`,
     },
+
     pt: {
       navBoxes: `
     <nav class="container__cube-menu__nav">
@@ -169,7 +164,7 @@ export function buildNav() {
           <i class="fa-brands fa-linkedin-in"></i>
           <span
             ><a
-              href="https://www.linkedin.com/in/okusindja-rodrigues-de-almeida-9b9186227/"
+              href="https://www.linkedin.com/in/okusindja-rodrigues-de-almeida"
               target="blank"
               rel="noopener noreferrer"
             >
@@ -202,9 +197,16 @@ export function buildNav() {
           >
         </li>
       </ul>
-    </div>`,
+    </div>
+    `,
     },
   };
+
+  let menuMobileOpenButton = document.querySelector(".fa-bars");
+  let menuMobileCloseButton = document.querySelector(".fa-times");
+  let menuMobileContainer = document.querySelector(
+    ".container__cube-menu--mobile__menu-list"
+  );
 
   if (menuMobileOpenButton) {
     menuMobileOpenButton.addEventListener("click", () => {
@@ -221,7 +223,11 @@ export function buildNav() {
     });
   }
 
-  window.location.hash === "#pt"
-    ? (cubeMenuContainer.innerHTML = html.pt.navBoxes)
-    : (cubeMenuContainer.innerHTML = html.en.navBoxes);
+  if (window.location.hash === "#pt") {
+    cubeMenuContainer.innerHTML = html.pt.navBoxes;
+    menuMobileContainer.innerHTML = html.pt.navBoxes;
+  } else {
+    cubeMenuContainer.innerHTML = html.en.navBoxes;
+    menuMobileContainer.innerHTML = html.en.navBoxes;
+  }
 }
