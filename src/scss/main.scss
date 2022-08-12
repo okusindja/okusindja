@@ -13,7 +13,6 @@
   border: 0;
   padding: 0;
   outline: 0;
-  z-index: 0;
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
@@ -40,6 +39,9 @@ h1 {
   text-align: center;
   letter-spacing: 2px;
   transition: all 400ms ease-in-out;
+  @media (max-width: 768px) {
+    font-size: 4.5em;
+  }
 }
 
 h1::before {
@@ -110,8 +112,11 @@ h1#name:hover {
   0% {
     transform: var(--put-on-the-ground);
   }
-  100% {
+  50% {
     transform: skewY(-28deg);
+  }
+  100% {
+    transform: skewY(0deg);
   }
 }
 
@@ -121,5 +126,18 @@ h1#name:hover {
   }
   100% {
     width: 100%;
+  }
+}
+
+@keyframes spreadMenu {
+  0% {
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+  }
+  100% {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
   }
 }

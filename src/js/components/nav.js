@@ -1,5 +1,14 @@
 export function buildNav() {
   let cubeMenuContainer = document.querySelector(".container__cube-menu");
+  let menuMobileOpenButton = document.querySelector(
+    ".container__cube-menu--mobile .fa-bars"
+  );
+  let menuMobileCloseButton = document.querySelector(
+    ".container__cube-menu--mobile .fa-times"
+  );
+  let menuMobileContainer = document.querySelector(
+    ".container__cube-menu--mobile__menu-list"
+  );
 
   let html = {
     en: {
@@ -16,31 +25,31 @@ export function buildNav() {
           class="container__cube-menu__nav__nav-list__item"
           style="--index: 5"
         >
-          <a href="/pages/about/#en"><h2>About Me</h2></a>
+          <a href="/about/#en"><h2>About Me</h2></a>
         </li>
         <li
           class="container__cube-menu__nav__nav-list__item"
           style="--index: 4"
         >
-          <a href="/pages/skills/#en"><h2>My Skills</h2></a>
+          <a href="/skills/#en"><h2>My Skills</h2></a>
         </li>
         <li
           class="container__cube-menu__nav__nav-list__item"
           style="--index: 3"
         >
-          <a href="/pages/experience/#en"><h2>Expreience</h2></a>
+          <a href="/experience/#en"><h2>Expreience</h2></a>
         </li>
         <li
           class="container__cube-menu__nav__nav-list__item"
           style="--index: 2"
         >
-          <a href="/pages/projects/#en"><h2>My Projects</h2></a>
+          <a href="/projects/#en"><h2>My Projects</h2></a>
         </li>
         <li
           class="container__cube-menu__nav__nav-list__item"
           style="--index: 1"
         >
-          <a href="/pages/hire/#en"><h2>Buy me a coffee</h2></a>
+          <a href="/hire/#en"><h2>Buy me a coffee</h2></a>
         </li>
       </ul>
     </nav>
@@ -196,6 +205,21 @@ export function buildNav() {
     </div>`,
     },
   };
+
+  if (menuMobileOpenButton) {
+    menuMobileOpenButton.addEventListener("click", () => {
+      menuMobileCloseButton.style.display = "block";
+      menuMobileContainer.style.display = "flex";
+      menuMobileOpenButton.style.display = "none";
+    });
+  }
+  if (menuMobileCloseButton && menuMobileContainer) {
+    menuMobileCloseButton.addEventListener("click", () => {
+      menuMobileCloseButton.style.display = "none";
+      menuMobileContainer.style.display = "none";
+      menuMobileOpenButton.style.display = "block";
+    });
+  }
 
   window.location.hash === "#pt"
     ? (cubeMenuContainer.innerHTML = html.pt.navBoxes)

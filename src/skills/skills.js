@@ -1,5 +1,5 @@
-import "../../scss/main.scss";
-import { buildNav, manageLanguages } from "../../js/init";
+import "../scss/main.scss";
+import { buildNav, manageLanguages } from "../js/index";
 
 function setSkillInformationOnMouseOver() {
   let skillListItems = document.querySelectorAll(
