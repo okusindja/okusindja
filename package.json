@@ -14,6 +14,8 @@
     "vite": "^3.0.0"
   },
   "dependencies": {
-    "sass": "^1.54.0"
+    "jquery": "^3.6.0",
+    "sass": "^1.54.0",
+    "slick-slider": "^1.8.2"
   }
 }

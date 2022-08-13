@@ -15,9 +15,15 @@ export default defineConfig({
         main: resolve(root, "index.html"),
         about: resolve(root, "about", "index.html"),
         skills: resolve(root, "skills", "index.html"),
+        experience: resolve(root, "experience", "index.html"),
         projects: resolve(root, "projects", "index.html"),
         hire: resolve(root, "hire", "index.html"),
       },
+      // output: {
+      //   globals: {
+      //     jquery: "window.$",
+      //   },
+      // },
     },
   },
   // plugins: [

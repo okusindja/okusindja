@@ -1,46 +1,50 @@
 export function buildNav() {
   let cubeMenuContainer = document.querySelector(".container__cube-menu");
+  let menuMobileOpenButton = document.querySelector(".fa-bars");
+  let menuMobileCloseButton = document.querySelector(".fa-times");
+  let containerContent = document.querySelector(".container__content");
+  let backgroundToggle = document.querySelector(".container");
 
   let html = {
     en: {
       navBoxes: `<nav class="container__cube-menu__nav">
-      <ul class="container__cube-menu__nav__nav-list">
+      <ul class="container__cube-menu__nav-list">
         <li
-          class="container__cube-menu__nav__nav-list__item"
+          class="container__cube-menu__nav-list__item"
           style="--index: 6"
         >
-        <a href="/#en"><h2>Home</h2></a>
+        <a href="/#en" title="Home"><h2>Home</h2></a>
         </li>
 
         <li
-          class="container__cube-menu__nav__nav-list__item"
+          class="container__cube-menu__nav-list__item"
           style="--index: 5"
         >
-          <a href="/about/#en"><h2>About Me</h2></a>
+          <a href="/about/#en" title="Read more about me"><h2>About Me</h2></a>
         </li>
         <li
-          class="container__cube-menu__nav__nav-list__item"
+          class="container__cube-menu__nav-list__item"
           style="--index: 4"
         >
-          <a href="/skills/#en"><h2>My Skills</h2></a>
+          <a href="/skills/#en" title="Some of my skills"><h2>My Skills</h2></a>
         </li>
         <li
-          class="container__cube-menu__nav__nav-list__item"
+          class="container__cube-menu__nav-list__item"
           style="--index: 3"
         >
-          <a href="/experience/#en"><h2>Expreience</h2></a>
+          <a href="/experience/#en" title="Some of my experience in the market"><h2>Experience</h2></a>
         </li>
         <li
-          class="container__cube-menu__nav__nav-list__item"
+          class="container__cube-menu__nav-list__item"
           style="--index: 2"
         >
-          <a href="/projects/#en"><h2>My Projects</h2></a>
+          <a href="/projects/#en" title="Some of my projects"><h2>My Projects</h2></a>
         </li>
         <li
-          class="container__cube-menu__nav__nav-list__item"
+          class="container__cube-menu__nav-list__item"
           style="--index: 1"
         >
-          <a href="/hire/#en"><h2>Buy me a coffee</h2></a>
+          <a href="/hire/#en" title="Hire me today"><h2>Buy me a coffee</h2></a>
         </li>
       </ul>
     </nav>
@@ -63,7 +67,7 @@ export function buildNav() {
           <i class="fa-brands fa-linkedin-in"></i>
           <span
             ><a
-              href="https://www.linkedin.com/in/okusindja-rodrigues-de-almeida-9b9186227/"
+              href="https://www.linkedin.com/in/okusindja-rodrigues-de-almeida"
               target="blank"
               rel="noopener noreferrer"
             >
@@ -98,46 +102,47 @@ export function buildNav() {
       </ul>
     </div>`,
     },
+
     pt: {
       navBoxes: `
     <nav class="container__cube-menu__nav">
-      <ul class="container__cube-menu__nav__nav-list">
+      <ul class="container__cube-menu__nav-list">
         <li
-          class="container__cube-menu__nav__nav-list__item"
+          class="container__cube-menu__nav-list__item"
           style="--index: 6"
         >
-        <a href="/#pt"><h2>Início</h2></a>
+        <a href="/#pt" title="Página Inicial"><h2>Início</h2></a>
         </li>
 
         <li
-          class="container__cube-menu__nav__nav-list__item"
+          class="container__cube-menu__nav-list__item"
           style="--index: 5"
         >
-          <a href="/about/#pt"><h2>Sobre mim</h2></a>
+          <a href="/about/#pt" title="Leia mais sobre mim"><h2>Sobre mim</h2></a>
         </li>
         <li
-          class="container__cube-menu__nav__nav-list__item"
+          class="container__cube-menu__nav-list__item"
           style="--index: 4"
         >
-          <a href="/skills/#pt"><h2>Habilidades</h2></a>
+          <a href="/skills/#pt" title="Algumas das minhas habilidades"><h2>Habilidades</h2></a>
         </li>
         <li
-          class="container__cube-menu__nav__nav-list__item"
+          class="container__cube-menu__nav-list__item"
           style="--index: 3"
         >
-          <a href="/experience/#pt"><h2>Experiência</h2></a>
+          <a href="/experience/#pt"  title="A minha experiência no mercado"><h2>Experiência</h2></a>
         </li>
         <li
-          class="container__cube-menu__nav__nav-list__item"
+          class="container__cube-menu__nav-list__item"
           style="--index: 2"
         >
-          <a href="/projects/#pt"><h2>Projectos</h2></a>
+          <a href="/projects/#pt"  title="Alguns projectos meus e participações"><h2>Projectos</h2></a>
         </li>
         <li
-          class="container__cube-menu__nav__nav-list__item"
+          class="container__cube-menu__nav-list__item"
           style="--index: 1"
         >
-          <a href="/hire/#pt"><h2>Me contrate</h2></a>
+          <a href="/hire/#pt"  title="Contrate-me hoje e vamos conversar"><h2>Me contrate</h2></a>
         </li>
       </ul>
     </nav>
@@ -160,7 +165,7 @@ export function buildNav() {
           <i class="fa-brands fa-linkedin-in"></i>
           <span
             ><a
-              href="https://www.linkedin.com/in/okusindja-rodrigues-de-almeida-9b9186227/"
+              href="https://www.linkedin.com/in/okusindja-rodrigues-de-almeida"
               target="blank"
               rel="noopener noreferrer"
             >
@@ -193,11 +198,30 @@ export function buildNav() {
           >
         </li>
       </ul>
-    </div>`,
+    </div>
+    `,
     },
   };
 
-  window.location.hash === "#pt"
-    ? (cubeMenuContainer.innerHTML = html.pt.navBoxes)
-    : (cubeMenuContainer.innerHTML = html.en.navBoxes);
+  menuMobileOpenButton.addEventListener("click", ({ target }) => {
+    target.style.display = "none";
+    cubeMenuContainer.style.display = "flex";
+    menuMobileCloseButton.style.display = "block";
+    containerContent.style.display = "none";
+    backgroundToggle.style.background = "#404059";
+  });
+
+  menuMobileCloseButton.addEventListener("click", ({ target }) => {
+    target.style.display = "none";
+    cubeMenuContainer.style.display = "none";
+    menuMobileOpenButton.style.display = "block";
+    containerContent.style.display = "block";
+    backgroundToggle.style.background = "radial-gradient(#e66465, #9198e5)";
+  });
+
+  if (window.location.hash === "#pt") {
+    cubeMenuContainer.innerHTML = html.pt.navBoxes;
+  } else {
+    cubeMenuContainer.innerHTML = html.en.navBoxes;
+  }
 }

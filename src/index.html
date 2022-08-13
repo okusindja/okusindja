@@ -3,20 +3,143 @@
   <head>
     <meta charset="UTF-8" />
     <meta
-      name="description"
-      content="Incididunt aute velit nostrud qui sunt labore cupidatat ut ullamco. Id et et irure esse. Laboris mollit consequat officia non laboris. Laboris sunt anim ut enim. Exercitation Lorem id duis exercitation adipisicing nisi voluptate eu. Velit non mollit tempor consequat nulla culpa pariatur in excepteur aliqua nulla incididunt sunt."
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
     />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta
+      name="description"
+      content="I'm a young student of T.I, in love with Web Development and technology looking for an higher level of proficiency especially in JavaScript language. I have higher experiences in Web Design or UI Developer, using technologies such as: CSS3, LESS, STYLUS, SCSS, BOOTSTRAPS, and etc. I do prototypes for Web Projects, using Apps such as: Figma, Adobe XD, Proto.io, and etc. I have 7 years of experience with Web Development. I'm learning the most common frameworks in the world, such as: React JS, React Native, NextJS, and I have a bit of knowledge in Angular Framework. For my professional life future, I'm planning on building an empire, as a young entrepreneur growing up with projects using the best of technology, and God's orientation."
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Okusindja de Almeida</title>
+    <title>Okusindja de Almeida - FrontEnd Dev</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#1a7279" />
+    <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
     <div class="background-stripes"></div>
+    <section class="container">
+      <div class="container__menu-controlers">
+        <i class="fa fa-bars"></i>
+        <i class="fa fa-times"></i>
+      </div>
+      <div class="container__cube-menu">
+        <nav class="container__cube-menu__nav">
+          <ul class="container__cube-menu__nav-list">
+            <li class="container__cube-menu__nav-list__item" style="--index: 6">
+              <a href="/#en" title="Home"><h2>Home</h2></a>
+            </li>
+
+            <li class="container__cube-menu__nav-list__item" style="--index: 5">
+              <a href="/about/#en" title="Read more about me"
+                ><h2>About Me</h2></a
+              >
+            </li>
+            <li class="container__cube-menu__nav-list__item" style="--index: 4">
+              <a href="/skills/#en" title="Some of my skills"
+                ><h2>My Skills</h2></a
+              >
+            </li>
+            <li class="container__cube-menu__nav-list__item" style="--index: 3">
+              <a
+                href="/experience/#en"
+                title="Some of my experience in the market"
+                ><h2>Experience</h2></a
+              >
+            </li>
+            <li class="container__cube-menu__nav-list__item" style="--index: 2">
+              <a href="/projects/#en" title="Some of my projects"
+                ><h2>My Projects</h2></a
+              >
+            </li>
+            <li class="container__cube-menu__nav-list__item" style="--index: 1">
+              <a href="/hire/#en" title="Hire me today"
+                ><h2>Buy me a coffee</h2></a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="container__cube-menu__socials">
+          <ul class="container__cube-menu__socials-list">
+            <li class="container__cube-menu__socials-list__item">
+              <i class="fa-brands fa-github"></i>
+              <span
+                ><a
+                  href="https://github.com/lord-kraze"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
+                  lord-kraze</a
+                ></span
+              >
+            </li>
+            <li class="container__cube-menu__socials-list__item">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <span
+                ><a
+                  href="https://www.linkedin.com/in/okusindja-rodrigues-de-almeida"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
+                  Okusindja de Almeida</a
+                ></span
+              >
+            </li>
+            <li class="container__cube-menu__socials-list__item">
+              <i class="fa-solid fa-at"></i>
+              <span
+                ><a
+                  href="okusindja@gmail.com"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
+                  okusindja@gmail.com
+                </a></span
+              >
+            </li>
+            <li class="container__cube-menu__socials-list__item">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span
+                ><a
+                  href="tel:+244956035826"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
+                  +244-956035826
+                </a></span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container__content">
+        <div id="home" class="container__content__page">
+          <div class="container__content__page__body">
+            <h1 id="name" class="full-name">
+              <span>I am</span> <br />
+              Okusindja <br />
+              de Almeida
+            </h1>
+          </div>
+          <div class="container__content__page__cool-message">
+            <span>I have something cool to show you :)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer"></footer>
     <div id="app"></div>
+
     <script type="module" src="main.js"></script>
   </body>
 </html>
