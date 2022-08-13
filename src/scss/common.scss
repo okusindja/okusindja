@@ -33,12 +33,6 @@
       padding: 0 1rem;
     }
   }
-
-  // #skills.content__page {
-  //   @media (max-width: 768px) {
-  //     justify-content: flex-end;
-  //   }
-  // }
   
   .content__page__cool-message {
     padding: 1.4rem;
@@ -48,8 +42,20 @@
     border: 1px solid white;
     transform: var(--put-on-the-ground);
     transition: all 400ms ease-in-out;
+
+    @media (max-width: 768px) {
+      animation: pulseMobile 3s infinite;
+      transform: rotate(0) skew(0);
+      margin: 0 auto;
+    }
   }
-  
+
+  #home .content__page__cool-message {
+    @media (max-width: 768px) {
+    margin-top: 4em;
+    }
+  }
+
   #skills .content__page__cool-message {
     transform: var(--put-on-the-ground);
   }
@@ -83,10 +89,6 @@
       margin-top: 6em;
     }
   }
-  
-  // #hire .content__page__body{
-  //   transform: translate(-10rem, 4rem);
-  // }
   
   .content__page__body__information {
     width: 370px;
@@ -305,28 +307,3 @@
       padding: 1rem;
     }
   }
-  
-  // #about .content__page__body__information,
-  // #projects .content__page__body__information,
-  // #hire .content__page__body__information,
-  // #experiences .content__page__body__information {
-  //   width: 330px;
-  //   transform: translate(-9rem, 4rem) var(--put-on-the-ground);
-  // }
-  
-  // #about .content__page__body__information--to-card,
-  // #projects .content__page__body__information--to-card,
-  // #hire .content__page__body__information--to-card,
-  // #experiences .content__page__body__information--to-card {
-  //   animation: wakeUp 500ms linear;
-  // }
-  
-  // #about .content__page__body__information--to-card:hover::after {
-  //   width: 0;
-  //   height: 0;
-  // }
-  
-  // #about .content__page__body__information--to-card:hover::before {
-  //   width: 0;
-  //   height: 0;
-  // }
