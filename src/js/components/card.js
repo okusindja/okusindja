@@ -1,10 +1,12 @@
 let contentsToTurnIntoCards = document.querySelector(
-  ".content__page__body__information"
+  ".container__content__page__body__information"
 );
 let isAlreadyAnCard = document.querySelector(
-  ".content__page__body__information--to-card"
+  ".container__content__page__body__information--to-card"
 );
-let coolMessage = document.querySelector(".content__page__cool-message");
+let coolMessage = document.querySelector(
+  ".container__content__page__cool-message"
+);
 let isMobile = window.matchMedia("(min-width: 768px)");
 
 export function turnContentIntoCardByHoveringOnText() {
@@ -12,10 +14,12 @@ export function turnContentIntoCardByHoveringOnText() {
     contentsToTurnIntoCards.addEventListener("mouseover", () => {
       if (!isAlreadyAnCard) {
         contentsToTurnIntoCards.classList.add(
-          "content__page__body__information--to-card"
+          "container__content__page__body__information--to-card"
         );
         if (coolMessage)
-          coolMessage.classList.add("content__page__cool-message--hide");
+          coolMessage.classList.add(
+            "container__content__page__cool-message--hide"
+          );
       }
     });
   }

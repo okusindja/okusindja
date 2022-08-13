@@ -1,21 +1,24 @@
 let lang = {
   en: {
-    myHomePage: `<div id="home" class="content__page">
-    <div class="content__page__body">
+    myHomePage: `<div id="home" class="container__content__page">
+    <div class="container__content__page__body">
       <h1 id="name" class="full-name">
         I am <br />
         Okusindja <br />
         de Almeida
       </h1>
     </div>
+    <div class="container__content__page__cool-message">
+      <span>I have something cool to show you :)</span>
+    </div>
   </div>`,
 
     aboutMePage: `
-    <div id="about" class="content__page">
-    <div class="content__page__body">
-      <div class="content__page__body__information">
-        <h3 class="content__page__body__information__title">Who am I?</h3>
-        <article class="content__page__body__information__body-text">
+    <div id="about" class="container__content__page">
+    <div class="container__content__page__body">
+      <div class="container__content__page__body__information">
+        <h3 class="container__content__page__body__information__title">Who am I?</h3>
+        <article class="container__content__page__body__information__body-text">
           Hello there, my name is Okusindja, but you can call me by my
           nickname "Kussy", I'm a young angolan guy seeking for better
           opportunities in my <b>Frontend</b> career. I studied in Angola,
@@ -28,8 +31,8 @@ let lang = {
     </div>
   </div>
     `,
-    mySkillsPage: `<div id="skills" class="content__page">
-    <div class="content__page__body">
+    mySkillsPage: `<div id="skills" class="container__content__page">
+    <div class="container__content__page__body">
       <ul>
         <li>
           <div class="speech-bubble">
@@ -41,7 +44,7 @@ let lang = {
             >
           </div>
           <div
-            class="content__page__body__information content__page__body__information--to-card"
+            class="container__content__page__body__information container__content__page__body__information--to-card"
             style="--index: 3"
           >
             <span><i class="fa-brands fa-css3-alt"></i> CSS3 96%</span>
@@ -49,7 +52,7 @@ let lang = {
               class="skill-liquid"
               style="--stat: 96%; --color: #5caae9"
             ></div>
-            <div class="content__page__body__information__stat"></div>
+            <div class="container__content__page__body__information__stat"></div>
           </div>
         </li>
 
@@ -61,7 +64,7 @@ let lang = {
             >
           </div>
           <div
-            class="content__page__body__information content__page__body__information--to-card"
+            class="container__content__page__body__information container__content__page__body__information--to-card"
             style="--index: 2"
           >
             <span><i class="fa-brands fa-html5"></i> HTML5 94%</span>
@@ -69,7 +72,7 @@ let lang = {
               class="skill-liquid"
               style="--stat: 94%; --color: #de8261"
             ></div>
-            <div class="content__page__body__information__stat"></div>
+            <div class="container__content__page__body__information__stat"></div>
           </div>
         </li>
 
@@ -83,7 +86,7 @@ let lang = {
             >
           </div>
           <div
-            class="content__page__body__information content__page__body__information--to-card"
+            class="container__content__page__body__information container__content__page__body__information--to-card"
             style="--index: 1"
           >
             <span><i class="fa-brands fa-js-square"></i> JS 56%</span>
@@ -91,7 +94,7 @@ let lang = {
               class="skill-liquid"
               style="--stat: 56%; --color: #e4c766"
             ></div>
-            <div class="content__page__body__information__stat"></div>
+            <div class="container__content__page__body__information__stat"></div>
           </div>
         </li>
 
@@ -105,7 +108,7 @@ let lang = {
             >
           </div>
           <div
-            class="content__page__body__information content__page__body__information--to-card"
+            class="container__content__page__body__information container__content__page__body__information--to-card"
             style="--index: 1"
           >
             <span><i class="fa-brands fa-git-alt"></i> GIT 86%</span>
@@ -113,7 +116,7 @@ let lang = {
               class="skill-liquid"
               style="--stat: 86%; --color: #c26340"
             ></div>
-            <div class="content__page__body__information__stat"></div>
+            <div class="container__content__page__body__information__stat"></div>
           </div>
         </li>
 
@@ -127,7 +130,7 @@ let lang = {
             >
           </div>
           <div
-            class="content__page__body__information content__page__body__information--to-card"
+            class="container__content__page__body__information container__content__page__body__information--to-card"
             style="--index: 1"
           >
             <span><i class="fa-brands fa-react"></i> REACTJS 55%</span>
@@ -135,7 +138,7 @@ let lang = {
               class="skill-liquid"
               style="--stat: 55%; --color: #365a8d"
             ></div>
-            <div class="content__page__body__information__stat"></div>
+            <div class="container__content__page__body__information__stat"></div>
           </div>
         </li>
 
@@ -149,7 +152,7 @@ let lang = {
             >
           </div>
           <div
-            class="content__page__body__information content__page__body__information--to-card"
+            class="container__content__page__body__information container__content__page__body__information--to-card"
             style="--index: 1"
           >
             <span
@@ -160,7 +163,7 @@ let lang = {
               class="skill-liquid"
               style="--stat: 76%; --color: #76d89c"
             ></div>
-            <div class="content__page__body__information__stat"></div>
+            <div class="container__content__page__body__information__stat"></div>
           </div>
         </li>
       </ul>
@@ -168,18 +171,18 @@ let lang = {
     <span class="skills-user-hint"
             >Tap on my skills, Am I that good?</span
           >
-    <div class="content__page__cool-message">
+    <div class="container__content__page__cool-message">
       <span>Hover on my skills, Am I that good?</span>
     </div>
   </div>`,
     myExperience: `
-  <div id="experience" class="content__page">
-        <div class="content__page__body">
-          <div class="content__page__body__information">
-            <h3 class="content__page__body__information__title">
+  <div id="experience" class="container__content__page">
+        <div class="container__content__page__body">
+          <div class="container__content__page__body__information">
+            <h3 class="container__content__page__body__information__title">
               What's my experience?
             </h3>
-            <article class="content__page__body__information__body-text">
+            <article class="container__content__page__body__information__body-text">
               <b>2021-Current:</b> NSDev as Junior Frontend Developer. Working
               mainly with JavaScript, HTML, CSS and ReactJS as main Framework.
               <br />
@@ -198,13 +201,13 @@ let lang = {
       </div>
   `,
     myProjectsPage: `
-  <div id="projects" class="content__page">
-          <div class="content__page__body">
-            <div class="content__page__body__information">
-              <h3 class="content__page__body__information__title">
+  <div id="projects" class="container__content__page">
+          <div class="container__content__page__body">
+            <div class="container__content__page__body__information">
+              <h3 class="container__content__page__body__information__title">
                 My Projects
               </h3>
-              <article class="content__page__body__information__body-text">
+              <article class="container__content__page__body__information__body-text">
                 Mostly of my projects are totally privates, and some other part
                 of them are public, I pay more attention on my personal projects
                 for a while, so I have some of unfinished projects, so you won't
@@ -240,19 +243,19 @@ let lang = {
               </article>
             </div>
           </div>
-          <div class="content__page__cool-message">
+          <div class="container__content__page__cool-message">
             <span>These are my masterpieces! Check my GitHub</span>
           </div>
         </div>
   `,
     hireMePage: `
-  <div id="hire" class="content__page">
-          <div class="content__page__body">
-            <div class="content__page__body__information">
-              <h3 class="content__page__body__information__title">
+  <div id="hire" class="container__content__page">
+          <div class="container__content__page__body">
+            <div class="container__content__page__body__information">
+              <h3 class="container__content__page__body__information__title">
                 Interest in working with me?
               </h3>
-              <article class="content__page__body__information__body-text">
+              <article class="container__content__page__body__information__body-text">
                 You can message me today, so we can talk about technology and
                 start working together, let's create something new and conquer!
                 <br />
@@ -276,28 +279,31 @@ let lang = {
               </article>
             </div>
           </div>
-          <div class="content__page__cool-message">
+          <div class="container__content__page__cool-message">
             <span>Hire me today, let's work on something cool!</span>
           </div>
         </div>
   `,
   },
   pt: {
-    myHomePage: `<div id="home" class="content__page">
-    <div class="content__page__body">
+    myHomePage: `<div id="home" class="container__content__page">
+    <div class="container__content__page__body">
       <h1 id="name" class="full-name">
         Eu sou <br />
         Okusindja <br />
         de Almeida
       </h1>
     </div>
+    <div class="container__content__page__cool-message">
+      <span>Tenho algo interessante para você :)</span>
+    </div>
   </div>`,
     aboutMePage: `
-    <div id="about" class="content__page">
-    <div class="content__page__body">
-      <div class="content__page__body__information">
-        <h3 class="content__page__body__information__title">Quem sou eu?</h3>
-        <article class="content__page__body__information__body-text">
+    <div id="about" class="container__content__page">
+    <div class="container__content__page__body">
+      <div class="container__content__page__body__information">
+        <h3 class="container__content__page__body__information__title">Quem sou eu?</h3>
+        <article class="container__content__page__body__information__body-text">
           Olá! Eu me chamo Okusindja, mas podes tratar-me pelo meu apelido
           "Kussy", Sou um jovem angolano à caça das melhores oportunidades para
           a minha carreira <b>Frontend Dev</b>. Eu estudei em Angola,
@@ -309,11 +315,11 @@ let lang = {
     </div>
   </div>
     `,
-    mySkillsPage: `<div id="skills" class="content__page">
-    <div class="content__page__body">
+    mySkillsPage: `<div id="skills" class="container__content__page">
+    <div class="container__content__page__body">
       <ul>
         <li>
-          <div class="speech-bubble">
+          <div class="speech-bubble spread-pt spread-pt--md ">
             <span
               >Muito conhecimento de tecnologias de estilo, muita criatividade
               e grande mobilidade para Web Designing. Manuseio alguns Pré-processadores:
@@ -322,7 +328,7 @@ let lang = {
             >
           </div>
           <div
-            class="content__page__body__information content__page__body__information--to-card"
+            class="container__content__page__body__information container__content__page__body__information--to-card"
             style="--index: 3"
           >
             <span><i class="fa-brands fa-css3-alt"></i> CSS3 96%</span>
@@ -330,7 +336,7 @@ let lang = {
               class="skill-liquid"
               style="--stat: 96%; --color: #5caae9"
             ></div>
-            <div class="content__page__body__information__stat"></div>
+            <div class="container__content__page__body__information__stat"></div>
           </div>
         </li>
 
@@ -342,7 +348,7 @@ let lang = {
             >
           </div>
           <div
-            class="content__page__body__information content__page__body__information--to-card"
+            class="container__content__page__body__information container__content__page__body__information--to-card"
             style="--index: 2"
           >
             <span><i class="fa-brands fa-html5"></i> HTML5 94%</span>
@@ -350,12 +356,12 @@ let lang = {
               class="skill-liquid"
               style="--stat: 94%; --color: #de8261"
             ></div>
-            <div class="content__page__body__information__stat"></div>
+            <div class="container__content__page__body__information__stat"></div>
           </div>
         </li>
 
         <li>
-          <div class="speech-bubble">
+          <div class="speech-bubble spread-pt">
             <span
               >Mergulhando no melhor que o JavaScript tem para oferecer, ES5 e ES6 em plenitude
               , no caminho de desenvolvimento para o nível Sênior. Abraçando novos desafios
@@ -363,7 +369,7 @@ let lang = {
             >
           </div>
           <div
-            class="content__page__body__information content__page__body__information--to-card"
+            class="container__content__page__body__information container__content__page__body__information--to-card"
             style="--index: 1"
           >
             <span><i class="fa-brands fa-js-square"></i> JS 56%</span>
@@ -371,12 +377,12 @@ let lang = {
               class="skill-liquid"
               style="--stat: 56%; --color: #e4c766"
             ></div>
-            <div class="content__page__body__information__stat"></div>
+            <div class="container__content__page__body__information__stat"></div>
           </div>
         </li>
 
         <li>
-          <div class="speech-bubble">
+          <div class="speech-bubble spread-pt">
             <span
               >conhecimento em controlo de versões utilizando comandos do GIT e
               boa familiaridade com algumas das mais usadas metodologias ágeis
@@ -385,7 +391,7 @@ let lang = {
             >
           </div>
           <div
-            class="content__page__body__information content__page__body__information--to-card"
+            class="container__content__page__body__information container__content__page__body__information--to-card"
             style="--index: 1"
           >
             <span><i class="fa-brands fa-git-alt"></i> GIT 86%</span>
@@ -393,12 +399,12 @@ let lang = {
               class="skill-liquid"
               style="--stat: 86%; --color: #c26340"
             ></div>
-            <div class="content__page__body__information__stat"></div>
+            <div class="container__content__page__body__information__stat"></div>
           </div>
         </li>
 
         <li>
-          <div class="speech-bubble react-pt">
+          <div class="speech-bubble spread-pt">
             <span
               >Aprendendo mais sobre essa biblioteca JS e desenvolvendo Apps com muita alegria.
               De momento esta é a principal biblioteca/Framework que uso no momento. Estou estudando
@@ -407,7 +413,7 @@ let lang = {
             >
           </div>
           <div
-            class="content__page__body__information content__page__body__information--to-card"
+            class="container__content__page__body__information container__content__page__body__information--to-card"
             style="--index: 1"
           >
             <span><i class="fa-brands fa-react"></i> REACTJS 55%</span>
@@ -415,7 +421,7 @@ let lang = {
               class="skill-liquid"
               style="--stat: 55%; --color: #365a8d"
             ></div>
-            <div class="content__page__body__information__stat"></div>
+            <div class="container__content__page__body__information__stat"></div>
           </div>
         </li>
 
@@ -429,7 +435,7 @@ let lang = {
             >
           </div>
           <div
-            class="content__page__body__information content__page__body__information--to-card"
+            class="container__content__page__body__information container__content__page__body__information--to-card"
             style="--index: 1"
           >
             <span
@@ -440,7 +446,7 @@ let lang = {
               class="skill-liquid"
               style="--stat: 76%; --color: #76d89c"
             ></div>
-            <div class="content__page__body__information__stat"></div>
+            <div class="container__content__page__body__information__stat"></div>
           </div>
         </li>
       </ul>
@@ -448,18 +454,18 @@ let lang = {
     <span class="skills-user-hint"
             >Toque em uma habilidade, há qualidade?</span
           >
-    <div class="content__page__cool-message">
+    <div class="container__content__page__cool-message">
       <span>Passe o mouse sobre as habilidades, há qualidade?</span>
     </div>
   </div>`,
     myExperience: `
-    <div id="experience" class="content__page">
-          <div class="content__page__body">
-            <div class="content__page__body__information">
-              <h3 class="content__page__body__information__title">
+    <div id="experience" class="container__content__page">
+          <div class="container__content__page__body">
+            <div class="container__content__page__body__information">
+              <h3 class="container__content__page__body__information__title">
                 Qual é a minha experiência?
               </h3>
-              <article class="content__page__body__information__body-text">
+              <article class="container__content__page__body__information__body-text">
                 <b>2021-Current:</b> NSDev como Junior Frontend Developer. Trablhando
                 principalmente com JavaScript, HTML, CSS e ReactJS Framework principal.
                 <br />
@@ -478,13 +484,13 @@ let lang = {
         </div>
     `,
     myProjectsPage: `
-  <div id="projects" class="content__page">
-          <div class="content__page__body">
-            <div class="content__page__body__information">
-              <h3 class="content__page__body__information__title">
+  <div id="projects" class="container__content__page">
+          <div class="container__content__page__body">
+            <div class="container__content__page__body__information">
+              <h3 class="container__content__page__body__information__title">
                 Meus Projectos
               </h3>
-              <article class="content__page__body__information__body-text">
+              <article class="container__content__page__body__information__body-text">
                 Maior parte dos meus projectos são totalmente privados, e a menor parte deles
                 são públicos, De momento dou mais atenção aos projectos pessoais,
                  portanto tenho alguns projectos inacabados, mas não sairás deste portfólio
@@ -522,13 +528,13 @@ let lang = {
         </div>
   `,
     hireMePage: `
-  <div id="hire" class="content__page">
-          <div class="content__page__body">
-            <div class="content__page__body__information">
-              <h3 class="content__page__body__information__title">
+  <div id="hire" class="container__content__page">
+          <div class="container__content__page__body">
+            <div class="container__content__page__body__information">
+              <h3 class="container__content__page__body__information__title">
                 Gostaria de trabalhar comigo?
               </h3>
-              <article class="content__page__body__information__body-text">
+              <article class="container__content__page__body__information__body-text">
                 Você pode me mandar uma mensagem hoje, para conversarmos sobre tecnologia e
                 começarmos a trabalhar juntos, vamos criar obras para conquistar!
                 <br />
@@ -551,7 +557,7 @@ let lang = {
               </article>
             </div>
           </div>
-          <div class="content__page__cool-message">
+          <div class="container__content__page__cool-message">
             <span>Contrate-me hoje, Vamos trabalhar em algo bom!</span>
           </div>
         </div>
@@ -574,7 +580,7 @@ export function manageLanguages() {
     `;
   let container = document.querySelector(".container__content");
   let menuItems = document.querySelectorAll(
-    ".container__cube-menu__nav__nav-list__item a"
+    ".container__cube-menu__nav-list__item a"
   );
   container.insertAdjacentHTML("afterend", languageMenu);
 

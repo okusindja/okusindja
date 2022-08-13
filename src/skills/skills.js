@@ -3,7 +3,7 @@ import { buildNav, manageLanguages } from "../js/index";
 
 function setSkillInformationOnMouseOver() {
   let skillListItems = document.querySelectorAll(
-    "#skills ul li .content__page__body__information"
+    "#skills ul li .container__content__page__body__information"
   );
   let mobileViewPort = window.matchMedia("(max-width: 768px)");
   let userHint = document.querySelector(".skills-user-hint");
