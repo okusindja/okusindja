@@ -7,10 +7,10 @@ let isAlreadyAnCard = document.querySelector(
 let coolMessage = document.querySelector(
   ".container__content__page__cool-message"
 );
-let isMobile = window.matchMedia("(min-width: 768px)");
+let isDesktop = window.matchMedia("(min-width: 768px)");
 
 export function turnContentIntoCardByHoveringOnText() {
-  if (contentsToTurnIntoCards && isMobile.matches) {
+  if (contentsToTurnIntoCards && isDesktop.matches) {
     contentsToTurnIntoCards.addEventListener("mouseover", () => {
       if (!isAlreadyAnCard) {
         contentsToTurnIntoCards.classList.add(

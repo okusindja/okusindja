@@ -21,7 +21,7 @@ function transformTextIntoBlockText() {
 
 document.addEventListener("DOMContentLoaded", () => {
   transformTextIntoBlockText();
-  manageLanguages();
+  // manageLanguages();
   transformTextIntoBlockText();
   buildNav();
 });
