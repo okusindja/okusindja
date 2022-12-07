@@ -1,6 +1,7 @@
 // import legacy from "@vitejs/plugin-legacy";
 import { resolve } from "path";
 import { defineConfig } from "vite";
+import { ViteFaviconsPlugin } from "vite-plugin-favicon";
 
 const root = resolve(__dirname, "src");
 const outDir = resolve(__dirname, "dist");
@@ -26,9 +27,21 @@ export default defineConfig({
       // },
     },
   },
-  // plugins: [
-  //   legacy({
-  //     targets: ["defaults", "not IE 11"],
-  //   }),
-  // ],
+  plugins: [
+    ViteFaviconsPlugin({
+      logo: "public/kussys-avatar.png",
+      favicons: {
+        appName: "Okusindja",
+        appDescription: "Okusindjas web portfolio",
+        developerName: "Okusindja de Almeida",
+        developerURL: null,
+        background: "#ddd",
+        theme_color: "#333",
+        icons: {
+          coast: false,
+          yandex: false,
+        },
+      },
+    }),
+  ],
 });

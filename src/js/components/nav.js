@@ -13,38 +13,38 @@ export function buildNav() {
           class="container__cube-menu__nav-list__item"
           style="--index: 6"
         >
-        <a href="/#en" title="Home"><h2>Home</h2></a>
+        <a href="/" title="Home"><h2>Home</h2></a>
         </li>
 
         <li
           class="container__cube-menu__nav-list__item"
           style="--index: 5"
         >
-          <a href="/about/#en" title="Read more about me"><h2>About Me</h2></a>
+          <a href="/about/" title="Read more about me"><h2>About Me</h2></a>
         </li>
         <li
           class="container__cube-menu__nav-list__item"
           style="--index: 4"
         >
-          <a href="/skills/#en" title="Some of my skills"><h2>My Skills</h2></a>
+          <a href="/skills/" title="Some of my skills"><h2>My Skills</h2></a>
         </li>
         <li
           class="container__cube-menu__nav-list__item"
           style="--index: 3"
         >
-          <a href="/experience/#en" title="Some of my experience in the market"><h2>Experience</h2></a>
+          <a href="/experience/" title="Some of my experience in the market"><h2>Experience</h2></a>
         </li>
         <li
           class="container__cube-menu__nav-list__item"
           style="--index: 2"
         >
-          <a href="/projects/#en" title="Some of my projects"><h2>My Projects</h2></a>
+          <a href="/projects/" title="Some of my projects"><h2>My Projects</h2></a>
         </li>
         <li
           class="container__cube-menu__nav-list__item"
           style="--index: 1"
         >
-          <a href="/hire/#en" title="Hire me today"><h2>Buy me a coffee</h2></a>
+          <a href="/hire/" title="Hire me today"><h2>Buy me a coffee</h2></a>
         </li>
       </ul>
     </nav>

@@ -20,7 +20,6 @@ function transformTextIntoBlockText() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  transformTextIntoBlockText();
   manageLanguages();
   transformTextIntoBlockText();
   buildNav();
