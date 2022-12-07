@@ -55,11 +55,11 @@ export function buildNav() {
           <i class="fa-brands fa-github"></i>
           <span
             ><a
-              href="https://github.com/lord-kraze"
+              href="https://github.com/okusindja"
               target="blank"
               rel="noopener noreferrer"
             >
-              lord-kraze</a
+              okusindja</a
             ></span
           >
         </li>
@@ -153,11 +153,11 @@ export function buildNav() {
           <i class="fa-brands fa-github"></i>
           <span
             ><a
-              href="https://github.com/lord-kraze"
+              href="https://github.com/okusindja"
               target="blank"
               rel="noopener noreferrer"
             >
-              lord-kraze</a
+              okusindja</a
             ></span
           >
         </li>
