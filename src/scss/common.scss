@@ -131,6 +131,10 @@
           transform: var(--put-on-the-ground);
           transition: all 400ms ease-in-out;
 
+          b {
+            font-size: 1.1rem;
+          }
+
           #skills & {
             display: flex;
             width: 330px;
@@ -238,7 +242,7 @@
 
             #projects & {
               &::after {
-                box-shadow: -390px 460px 20px rgba(0, 0, 0, 0.25);
+                box-shadow: -420px 500px 20px rgba(0, 0, 0, 0.25);
               }
             }
           }

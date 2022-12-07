@@ -209,38 +209,97 @@ export function manageLanguages() {
                   My Projects
                 </h3>
                 <article class="container__content__page__body__information__body-text">
-                  Mostly of my projects are totally privates, and some other part
-                  of them are public, I pay more attention on my personal projects
-                  for a while, so I have some of unfinished projects, so you won't
-                  leave this portfolio without seeing nothing haha. Some of my
-                  public unfinished projects are in my github, but I'll show you
-                  some of them such as:
+                Mostly of my projects are totally privates, and some other part
+                of them are public and I just participated on their development, so you won't
+                leave this portfolio without seeing nothing haha. Some of projects I worked on are:
                   <b
-                    ><a
-                      href="https://d-candies.netlify.app/"
-                      target="blank"
-                      rel="noopener noreferrer"
-                      >D Candies (mobile only)</a
-                    ></b
-                  >; I have:
+                  ><a
+                    href="https://br.diesel.com"
+                    target="blank"
+                    rel="noopener noreferrer"
+                    >Diesel</a
+                  ></b
+                >;
+
                   <b
-                    ><a
-                      href="http://bukkis.netlify.com"
-                      target="blank"
-                      rel="noopener noreferrer"
-                      >Bukkis (mobile only)</a
-                    ></b
-                  >
-                  I joined in a communitary project like:
+                  ><a
+                    href="https://sestini.com.br"
+                    target="blank"
+                    rel="noopener noreferrer"
+                    >Sestini</a
+                  ></b
+                >;
+
                   <b
-                    ><a
-                      href="https://covidango.web.app/"
-                      target="blank"
-                      rel="noopener noreferrer"
-                      >CovidAngo</a
-                    ></b
-                  >. These are some of them that I feel safe to show you... But
-                  there's hits coming soon! =)
+                  ><a
+                    href="https://catlifestyle.com.br"
+                    target="blank"
+                    rel="noopener noreferrer"
+                    >Caterpillar</a
+                  ></b
+                >;
+
+                  <b
+                  ><a
+                    href="https://loja.panasonic.com.br"
+                    target="blank"
+                    rel="noopener noreferrer"
+                    >Panasonic</a
+                  ></b
+                >;
+<b
+                  ><a
+                    href="https://fujioka.com.br"
+                    target="blank"
+                    rel="noopener noreferrer"
+                    >Fujioka</a
+                  ></b
+                >; <b
+                  ><a
+                    href="https://hangloose.com.br"
+                    target="blank"
+                    rel="noopener noreferrer"
+                    >Hang Loose</a
+                  ></b
+                >; <b
+                ><a
+                  href="https://hurley.com.br"
+                  target="blank"
+                  rel="noopener noreferrer"
+                  >Hurley</a
+                ></b
+              >; <b
+              ><a
+                href="https://kipling.com.br"
+                target="blank"
+                rel="noopener noreferrer"
+                >Kipling</a
+              ></b
+            >; <b
+            ><a
+              href="https://targus.com.br"
+              target="blank"
+              rel="noopener noreferrer"
+              >Targus</a
+            ></b
+          > And +30 projects I get involved on! You can see it on my Linkedin in experiences section: <b
+                  ><a
+                    href="https://www.linkedin.com/in/okusindja-rodrigues-de-almeida"
+                    target="blank"
+                    rel="noopener noreferrer"
+                    >My Linkedin</a
+                  ></b
+                >
+                And I'm proud to say that I joined in a communitary project like:
+                <b
+                  ><a
+                    href="https://covidango.web.app/"
+                    target="blank"
+                    rel="noopener noreferrer"
+                    >CovidAngo</a
+                  ></b
+                >. These are some of them that I feel safe to show you... But
+                there's hits coming soon! =)
                 </article>
               </div>
             </div>
@@ -432,7 +491,7 @@ export function manageLanguages() {
                 >Figma, SCRUM, KANBAM, VTEX, Angular Framework, NodeJS, SQL,
                 Adobe Illustrator, MVC, UML, Vanilla, Linux, Bootstrap,
                 Excel, Firebase, JSX, POO, PowerShell, MySQL,
-                Styled-Components, etc e etc.</span
+                Styled-Components, Web GL e ThreeJS etc e etc.</span
               >
             </div>
             <div
@@ -467,11 +526,11 @@ export function manageLanguages() {
                   Qual é a minha experiência?
                 </h3>
                 <article class="container__content__page__body__information__body-text">
-                  <b>2021-Current:</b> NSDev como Junior Frontend Developer. Trablhando
+                  <b>2021-Atualmente:</b> NSDev como Junior Frontend Developer. Trablhando
                   principalmente com JavaScript, HTML, CSS e ReactJS Framework principal.
                   <br />
-                  <b>2021-Current:</b> FRN Cubo como Membro do Team de Evolução, Frontend Dev
-                  , resolvo bugs, analiso código e dados, e escrendo o melhor e mais limpo
+                  <b>2021-2022:</b> FRN Cubo como Membro do Team de Evolução, Frontend Dev
+                  , resolvi bugs, analisei código e dados, refatoração de código e escrevi o melhor e mais limpo
                   código possível, usando principalmente: VTEX CMS, Vtex IO
                   e Vanilla JavaScript.
                   <br />
@@ -492,36 +551,96 @@ export function manageLanguages() {
                   Meus Projectos
                 </h3>
                 <article class="container__content__page__body__information__body-text">
-                  Maior parte dos meus projectos são totalmente privados, e a menor parte deles
-                  são públicos, De momento dou mais atenção aos projectos pessoais,
-                   portanto tenho alguns projectos inacabados, mas não sairás deste portfólio
-                   sem ver nada de jeito haha. Alguns dos meus projectos públicos
-                   estão no meu perfil do GitHub, mas consigo te mostrar alguns como:
-                  <b
-                    ><a
-                      href="https://d-candies.netlify.app/"
-                      target="blank"
-                      rel="noopener noreferrer"
-                      >D Candies (só mobile de momento)</a
-                    ></b
-                  >; Tenho também:
-                  <b
-                    ><a
-                      href="http://bukkis.netlify.com"
-                      target="blank"
-                      rel="noopener noreferrer"
-                      >Bukkis (só mobile de momento)</a
-                    ></b
-                  >
-                  Já trabalhei em um projecto comunitário como:
-                  <b
-                    ><a
-                      href="https://covidango.web.app/"
-                      target="blank"
-                      rel="noopener noreferrer"
-                      >CovidAngo</a
-                    ></b
-                  >. Estes são alguns projectos que estou seguro em mostrar... Mas prometo
+                  Maior parte dos meus projectos pessoais são totalmente privados, e a parte deles
+                  são públicos, participei no desenvolvimento de alguns, mas não sairás deste portfólio
+                   sem ver nada de jeito haha. Consigo mostrar-te alguns como:
+                   <b
+                   ><a
+                     href="https://br.diesel.com"
+                     target="blank"
+                     rel="noopener noreferrer"
+                     >Diesel</a
+                   ></b
+                 >;
+ 
+                   <b
+                   ><a
+                     href="https://sestini.com.br"
+                     target="blank"
+                     rel="noopener noreferrer"
+                     >Sestini</a
+                   ></b
+                 >;
+ 
+                   <b
+                   ><a
+                     href="https://catlifestyle.com.br"
+                     target="blank"
+                     rel="noopener noreferrer"
+                     >Caterpillar</a
+                   ></b
+                 >;
+ 
+                   <b
+                   ><a
+                     href="https://loja.panasonic.com.br"
+                     target="blank"
+                     rel="noopener noreferrer"
+                     >Panasonic</a
+                   ></b
+                 >;
+ <b
+                   ><a
+                     href="https://fujioka.com.br"
+                     target="blank"
+                     rel="noopener noreferrer"
+                     >Fujioka</a
+                   ></b
+                 >; <b
+                   ><a
+                     href="https://hangloose.com.br"
+                     target="blank"
+                     rel="noopener noreferrer"
+                     >Hang Loose</a
+                   ></b
+                 >; <b
+                 ><a
+                   href="https://hurley.com.br"
+                   target="blank"
+                   rel="noopener noreferrer"
+                   >Hurley</a
+                 ></b
+               >; <b
+               ><a
+                 href="https://kipling.com.br"
+                 target="blank"
+                 rel="noopener noreferrer"
+                 >Kipling</a
+               ></b
+             >; <b
+             ><a
+               href="https://targus.com.br"
+               target="blank"
+               rel="noopener noreferrer"
+               >Targus</a
+             ></b
+           > E +30 projectos onde estive envolvido! Veja o restante no meu linkedin na secção de experiências: <b
+                   ><a
+                     href="https://www.linkedin.com/in/okusindja-rodrigues-de-almeida"
+                     target="blank"
+                     rel="noopener noreferrer"
+                     >Meu Linkedin</a
+                   ></b
+                 >
+                 E orgulho-me em dizer que participei em um projecto comunitário como:
+                 <b
+                   ><a
+                     href="https://covidango.web.app/"
+                     target="blank"
+                     rel="noopener noreferrer"
+                     >CovidAngo</a
+                   ></b
+                 >. Estes são alguns projectos que estou seguro em mostrar... Mas prometo
                   que muitos virão em breve! =)
                 </article>
               </div>
@@ -582,7 +701,7 @@ export function manageLanguages() {
   let menuItems = document.querySelectorAll(
     ".container__cube-menu__nav-list__item a"
   );
-  // container.insertAdjacentHTML("afterend", languageMenu);
+  container.insertAdjacentHTML("afterend", languageMenu);
 
   if (window.location.hash === "#pt") {
     menuItems.forEach((menuItem) => {
@@ -613,4 +732,38 @@ export function manageLanguages() {
       location.reload(true);
     });
   });
+
+  let contentsToTurnIntoCards = document.querySelectorAll(
+    ".container__content__page__body__information"
+  );
+  let isAlreadyAnCard = document.querySelector(
+    ".container__content__page__body__information--to-card"
+  );
+  let coolMessage = document.querySelector(
+    ".container__content__page__cool-message"
+  );
+  let isDesktop = window.matchMedia("(min-width: 768px)");
+
+  if (contentsToTurnIntoCards && isDesktop.matches) {
+    contentsToTurnIntoCards.forEach((contentToTurnIntoCard) => {
+      contentToTurnIntoCard.addEventListener("mouseover", () => {
+        if (!isAlreadyAnCard) {
+          contentToTurnIntoCard.classList.add(
+            "container__content__page__body__information--to-card"
+          );
+          if (coolMessage)
+            coolMessage.classList.add(
+              "container__content__page__cool-message--hide"
+            );
+        }
+      });
+    })
+  }
 }
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  turnContentIntoCardByHoveringOnText();
+});
+
+
