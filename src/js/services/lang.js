@@ -90,10 +90,10 @@ export function manageLanguages() {
               class="container__content__page__body__information container__content__page__body__information--to-card"
               style="--index: 1"
             >
-              <span><i class="fa-brands fa-js-square"></i> JS 56%</span>
+              <span><i class="fa-brands fa-js-square"></i> JS 69%</span>
               <div
                 class="skill-liquid"
-                style="--stat: 56%; --color: #e4c766"
+                style="--stat: 69%; --color: #e4c766"
               ></div>
               <div class="container__content__page__body__information__stat"></div>
             </div>
@@ -134,10 +134,10 @@ export function manageLanguages() {
               class="container__content__page__body__information container__content__page__body__information--to-card"
               style="--index: 1"
             >
-              <span><i class="fa-brands fa-react"></i> REACTJS 55%</span>
+              <span><i class="fa-brands fa-react"></i> REACTJS 72%</span>
               <div
                 class="skill-liquid"
-                style="--stat: 55%; --color: #365a8d"
+                style="--stat: 72%; --color: #365a8d"
               ></div>
               <div class="container__content__page__body__information__stat"></div>
             </div>
@@ -432,10 +432,10 @@ export function manageLanguages() {
               class="container__content__page__body__information container__content__page__body__information--to-card"
               style="--index: 1"
             >
-              <span><i class="fa-brands fa-js-square"></i> JS 56%</span>
+              <span><i class="fa-brands fa-js-square"></i> JS 69%</span>
               <div
                 class="skill-liquid"
-                style="--stat: 56%; --color: #e4c766"
+                style="--stat: 69%; --color: #e4c766"
               ></div>
               <div class="container__content__page__body__information__stat"></div>
             </div>
@@ -476,10 +476,10 @@ export function manageLanguages() {
               class="container__content__page__body__information container__content__page__body__information--to-card"
               style="--index: 1"
             >
-              <span><i class="fa-brands fa-react"></i> REACTJS 55%</span>
+              <span><i class="fa-brands fa-react"></i> REACTJS 72%</span>
               <div
                 class="skill-liquid"
-                style="--stat: 55%; --color: #365a8d"
+                style="--stat: 72%; --color: #365a8d"
               ></div>
               <div class="container__content__page__body__information__stat"></div>
             </div>
