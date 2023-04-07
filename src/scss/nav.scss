@@ -224,7 +224,7 @@
     a[data-reload].container__lang-list__item {
       padding: 0 0.7rem;
 
-      &:first-child {
+      &:nth-last-child(n+2) {
         border-right: 1px solid #ffffff80;
       }
     }
