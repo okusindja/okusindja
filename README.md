@@ -1,6 +1,6 @@
 <img align="center" src="https://i.ibb.co/S0hp61R/Screenshot-2022-08-10-160815.jpg" alt="img"/>
 <!--h1 align="center">Hi 👋, I'm Okusindja</h1-->
-<h3 align="center">A passionate frontend developer from Angola</h3>
+<h3 align="left">A passionate frontend developer from Angola</h3>
 
 - 🔭 I’m currently working on **React projects for training**
 
@@ -31,4 +31,4 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=okusindja&show_icons=true&locale=en" alt="okusindja" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=okusindja&" alt="okusindja" /></p>
+<!--p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=okusindja&" alt="okusindja" /></p-->
