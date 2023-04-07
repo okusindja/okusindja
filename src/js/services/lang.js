@@ -184,7 +184,7 @@ export function manageLanguages() {
                 What's my experience?
               </h3>
               <article class="container__content__page__body__information__body-text">
-                <b>2021-2022:</b> NSDev as Junior Frontend Developer. Working
+                <b>2021-2022:</b> NSDev as a Frontend Developer. Working
                 mainly with JavaScript, HTML, CSS and ReactJS as main Framework.
                 <br />
                 <b>2021-2022:</b> FRN Cubo as Evolution Team Frontend Dev
@@ -526,7 +526,7 @@ export function manageLanguages() {
                   Qual é a minha experiência?
                 </h3>
                 <article class="container__content__page__body__information__body-text">
-                  <b>2021-2022:</b> NSDev como Junior Frontend Developer. Trablhando
+                  <b>2021-2022:</b> NSDev como a Frontend Developer. Trablhando
                   principalmente com JavaScript, HTML, CSS e ReactJS Framework principal.
                   <br />
                   <b>2021-2022:</b> FRN Cubo como Membro do Team de Evolução, Frontend Dev
