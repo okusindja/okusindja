@@ -184,10 +184,10 @@ export function manageLanguages() {
                 What's my experience?
               </h3>
               <article class="container__content__page__body__information__body-text">
-                <b>2021-Current:</b> NSDev as Junior Frontend Developer. Working
+                <b>2021-2022:</b> NSDev as Junior Frontend Developer. Working
                 mainly with JavaScript, HTML, CSS and ReactJS as main Framework.
                 <br />
-                <b>2021-Current:</b> FRN Cubo as Evolution Team Frontend Dev
+                <b>2021-2022:</b> FRN Cubo as Evolution Team Frontend Dev
                 Member, and I'm fixing bugs, analying data and writting the best
                 and cleanest code as possible, using Mainly VTEX CMS, Vtex IO
                 and Vanilla JavaScript.
@@ -334,7 +334,7 @@ export function manageLanguages() {
                       rel="noopener noreferrer"
                       >My Linkedin</a
                     ></b
-                  >. Send me a message, so you can buy me a coffee, I'll bring the
+                  >. Send me a message, so you can Let's work together, I'll bring the
                   donuts =)
                 </article>
               </div>
@@ -526,7 +526,7 @@ export function manageLanguages() {
                   Qual é a minha experiência?
                 </h3>
                 <article class="container__content__page__body__information__body-text">
-                  <b>2021-Atualmente:</b> NSDev como Junior Frontend Developer. Trablhando
+                  <b>2021-2022:</b> NSDev como Junior Frontend Developer. Trablhando
                   principalmente com JavaScript, HTML, CSS e ReactJS Framework principal.
                   <br />
                   <b>2021-2022:</b> FRN Cubo como Membro do Team de Evolução, Frontend Dev
