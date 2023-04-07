@@ -4,7 +4,7 @@
 
 - 🔭 I’m currently working on **React projects for training**
 
-- 🌱 I’m currently learning **Javascript, React, Nextjs, Expo**
+- 🌱 I’m currently learning **Javascript, React, Nextjs, Expo and Threejs**
 
 - 👯 I’m looking to collaborate on **every vanilla, react or react native**
 
