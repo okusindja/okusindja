@@ -334,7 +334,7 @@ export function manageLanguages() {
                       rel="noopener noreferrer"
                       >My Linkedin</a
                     ></b
-                  >. Send me a message, so you can Let's work together, I'll bring the
+                  >. Send me a message, so you can Contract me, I'll bring the
                   donuts =)
                 </article>
               </div>
