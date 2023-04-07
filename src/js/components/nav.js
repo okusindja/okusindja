@@ -44,7 +44,7 @@ export function buildNav() {
           class="container__cube-menu__nav-list__item"
           style="--index: 1"
         >
-          <a href="/hire/" title="Hire me today"><h2>Buy me a coffee</h2></a>
+          <a href="/hire/" title="Hire me today"><h2>Let's work together</h2></a>
         </li>
       </ul>
     </nav>
