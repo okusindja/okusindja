@@ -467,8 +467,8 @@ export function manageLanguages() {
             <div class="speech-bubble spread-pt">
               <span
                 >Aprendendo mais sobre essa biblioteca JS e desenvolvendo Apps com muita alegria.
-                De momento esta é a principal biblioteca/Framework que uso no momento. Estou estudando
-                sobre, e incluindo outras tecnologias que deixa tudo mais poderoso e produtivo
+                É a principal biblioteca/Framework que uso no momento. Estudando
+                sobre, e incluindo outras tecnologias que deixam tudo mais poderoso e produtivo
                 , como NextJS e TypeScript.</span
               >
             </div>
@@ -526,7 +526,7 @@ export function manageLanguages() {
                   Qual é a minha experiência?
                 </h3>
                 <article class="container__content__page__body__information__body-text">
-                  <b>2021-2022:</b> NSDev como a Frontend Developer. Trablhando
+                  <b>2021-2022:</b> NSDev como um Frontend Developer. Trablhando
                   principalmente com JavaScript, HTML, CSS e ReactJS Framework principal.
                   <br />
                   <b>2021-2022:</b> FRN Cubo como Membro do Team de Evolução, Frontend Dev
@@ -683,6 +683,342 @@ export function manageLanguages() {
           </div>
     `,
     },
+    fr: {
+      myHomePage: `
+        <div id="home" class="container__content__page">
+          <div class="container__content__page__body">
+            <h1 id="name" class="full-name">
+              Je suis <br />
+              Okusindja <br />
+              de Almeida
+            </h1>
+          </div>
+          <div class="container__content__page__cool-message">
+            <span>J'ai quelque chose de cool à vous montrer :)</span>
+          </div>
+        </div>
+      `,
+      aboutMePage: `
+      <div id="about" class="container__content__page">
+      <div class="container__content__page__body">
+        <div class="container__content__page__body__information">
+          <h3 class="container__content__page__body__information__title">Qui suis-je?</h3>
+          <article class="container__content__page__body__information__body-text">
+            Bonjour, je m'appelle Okusindja, mais vous pouvez m'appeler par
+            mon surnom "Kussy". Je suis un jeune Angolais à la recherche de
+            meilleures opportunités dans ma carrière de <b>Frontend</b>. J'ai étudié en Angola,
+            à l'ISPTEC - Instituto Superior Politécnico de Tecnologias E
+            Ciências, dans le cours d'ingénierie informatique. J'adore coder et étudier
+            de nouvelles technologies, et discuter de théologie, de philosophie et je suis un
+            écrivain de livre.
+          </article>
+        </div>
+      </div>
+    </div>
+    `,
+      mySkillsPage: `
+      <div id="skills" class="container__content__page">
+      <div class="container__content__page__body">
+        <ul>
+          <li>
+            <div class="speech-bubble">
+              <span
+                >Bonne familiarité avec les styles, beaucoup de créativité
+                et grande mobilité pour le Web Design. Maîtrise de certains préprocesseurs :
+                SASS, Stylus, Less, connaissance de la convention de nommage utilisant BEM, et bien plus encore !</span
+              >
+            </div>
+            <div
+              class="container__content__page__body__information container__content__page__body__information--to-card"
+              style="--index: 3"
+            >
+              <span><i class="fa-brands fa-css3-alt"></i> CSS3 96%</span>
+              <div
+                class="skill-liquid"
+                style="--stat: 96%; --color: #5caae9"
+              ></div>
+              <div class="container__content__page__body__information__stat"></div>
+            </div>
+          </li>
+  
+          <li>
+            <div class="speech-bubble">
+              <span
+                >Bonne connaissance des balises et des attributs HTML5, ce qui me permet de développer 
+                des applications avec un bon référencement SEO.</span
+              >
+            </div>
+            <div
+              class="container__content__page__body__information container__content__page__body__information--to-card"
+              style="--index: 2"
+            >
+              <span><i class="fa-brands fa-html5"></i> HTML5 94%</span>
+              <div
+                class="skill-liquid"
+                style="--stat: 94%; --color: #de8261"
+              ></div>
+              <div class="container__content__page__body__information__stat"></div>
+            </div>
+          </li>
+  
+          <li>
+            <div class="speech-bubble">
+              <span
+                >Apprentissage approfondi de Javascript, ES5 et ES6 pour atteindre le niveau Senior. 
+                J'embrasse les nouveaux défis et recherche les meilleures pratiques pour atteindre le niveau 
+                divin du code propre.</span
+              >
+            </div>
+            <div
+              class="container__content__page__body__information container__content__page__body__information--to-card"
+              style="--index: 1"
+            >
+              <span><i class="fa-brands fa-js-square"></i> JS 69%</span>
+              <div
+                class="skill-liquid"
+                style="--stat: 69%; --color: #e4c766"
+              ></div>
+              <div class="container__content__page__body__information__stat"></div>
+            </div>
+          </li>
+  
+          <li>
+            <div class="speech-bubble">
+              <span
+                >Connaissance de la gestion de versions à l'aide des commandes GIT et familiarité avec plusieurs méthodologies 
+                agiles qui ont les mêmes principes de base que GIT. Pour les dépôts, je peux utiliser BitBucket, 
+                GitHub et GitLab.</span
+              >
+            </div>
+            <div
+              class="container__content__page__body__information container__content__page__body__information--to-card"
+              style="--index: 1"
+            >
+              <span><i class="fa-brands fa-git-alt"></i> GIT 86%</span>
+              <div
+                class="skill-liquid"
+                style="--stat: 86%; --color: #c26340"
+              ></div>
+              <div class="container__content__page__body__information__stat"></div>
+            </div>
+          </li>
+  
+          <li>
+            <div class="speech-bubble">
+              <span
+                >Développement d'applications avec ReactJS et d'autres technologies complémentaires 
+                pour maximiser la productivité, telles que NextJS et Typescript.</span
+              >
+            </div>
+            <div
+              class="container__content__page__body__information container__content__page__body__information--to-card"
+              style="--index: 1"
+            >
+              <span><i class="fa-brands fa-react"></i> REACTJS 72%</span>
+              <div
+                class="skill-liquid"
+                style="--stat: 72%; --color: #365a8d"
+              ></div>
+              <div class="container__content__page__body__information__stat"></div>
+            </div>
+          </li>
+  
+          <li>
+            <div class="speech-bubble">
+              <span
+                >Figma, SCRUM, KANBAM, VTEX, Angular Framework, NodeJS, SQL,
+                Adobe Illustrator, MVC, UML, Vanilla, Linux, Bootstrap,
+                Excel, Firebase, JSX, POO, PowerShell, MySQL,
+                Styled-Components, etc et etc.</span
+              >
+            </div>
+            <div
+              class="container__content__page__body__information container__content__page__body__information--to-card"
+              style="--index: 1"
+            >
+              <span
+                ><i class="fa-solid fa-diagram-project"></i> AUTRES COMPÉTENCES
+                76%</span
+              >
+              <div
+                class="skill-liquid"
+                style="--stat: 76%; --color: #76d89c"
+              ></div>
+              <div class="container__content__page__body__information__stat"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <span class="skills-user-hint"
+              >Appuyez sur mes compétences, suis-je si bon ?</span
+            >
+      <div class="container__content__page__cool-message">
+        <span>Survolez mes compétences, suis-je si bon ?</span>
+      </div>
+    </div>
+      `,
+      myExperience: `
+      <div id="experience" class="container__content__page">
+      <div class="container__content__page__body">
+        <div class="container__content__page__body__information">
+          <h3 class="container__content__page__body__information__title">
+            Quelle est mon expérience?
+          </h3>
+          <article class="container__content__page__body__information__body-text">
+            <b>2021-2022:</b> NSDev en tant que développeur Frontend. Travaillant principalement avec JavaScript, HTML, CSS et ReactJS comme principal Framework.
+            <br />
+            <b>2021-2022:</b> FRN Cubo en tant que membre de l'équipe d'évolution Frontend, et je résous des bugs, analyse des données et écris le meilleur et le plus propre code possible, en utilisant principalement VTEX CMS, Vtex IO et Vanilla JavaScript.
+            <br />
+            <b>2018-2021:</b> Freelance en tant que développeur Web Fullstack et designer UI/UX, utilisant toutes les technologies tendances sur le marché telles que Angular 9, ReactJS, MySQL, etc., mais principalement en utilisant JavaScript comme langage de base.
+          </article>
+        </div>
+      </div>
+    </div>
+      `,
+      myProjectsPage: `
+      <div id="projects" class="container__content__page">
+      <div class="container__content__page__body">
+        <div class="container__content__page__body__information">
+          <h3 class="container__content__page__body__information__title">
+            Mes projets
+          </h3>
+          <article class="container__content__page__body__information__body-text">
+          La plupart de mes projets sont entièrement privés et une partie d'entre eux sont publics auxquels 
+          j'ai seulement participé au développement. Donc, vous ne quitterez pas ce portfolio sans rien 
+          voir haha. Certains des projets sur lesquels j'ai travaillé sont :
+            <b
+            ><a
+              href="https://br.diesel.com"
+              target="blank"
+              rel="noopener noreferrer"
+              >Diesel</a
+            ></b
+          >;
+
+            <b
+            ><a
+              href="https://sestini.com.br"
+              target="blank"
+              rel="noopener noreferrer"
+              >Sestini</a
+            ></b
+          >;
+
+            <b
+            ><a
+              href="https://catlifestyle.com.br"
+              target="blank"
+              rel="noopener noreferrer"
+              >Caterpillar</a
+            ></b
+          >;
+
+            <b
+            ><a
+              href="https://loja.panasonic.com.br"
+              target="blank"
+              rel="noopener noreferrer"
+              >Panasonic</a
+            ></b
+          >;
+<b
+            ><a
+              href="https://fujioka.com.br"
+              target="blank"
+              rel="noopener noreferrer"
+              >Fujioka</a
+            ></b
+          >; <b
+            ><a
+              href="https://hangloose.com.br"
+              target="blank"
+              rel="noopener noreferrer"
+              >Hang Loose</a
+            ></b
+          >; <b
+          ><a
+            href="https://hurley.com.br"
+            target="blank"
+            rel="noopener noreferrer"
+            >Hurley</a
+          ></b
+        >; <b
+        ><a
+          href="https://kipling.com.br"
+          target="blank"
+          rel="noopener noreferrer"
+          >Kipling</a
+        ></b
+      >; <b
+      ><a
+        href="https://targus.com.br"
+        target="blank"
+        rel="noopener noreferrer"
+        >Targus</a
+      ></b
+    > Et plus de 30 projets sur lesquels j'ai travaillé ! Vous pouvez les voir 
+    sur mon profil LinkedIn, dans la section "Expériences". <b
+            ><a
+              href="https://www.linkedin.com/in/okusindja-rodrigues-de-almeida"
+              target="blank"
+              rel="noopener noreferrer"
+              >My Linkedin</a
+            ></b
+          >
+          Et je suis fier de dire que j'ai participé à un projet communautaire tel que:
+          <b
+            ><a
+              href="https://covidango.web.app/"
+              target="blank"
+              rel="noopener noreferrer"
+              >CovidAngo</a
+            ></b
+          >. Voici quelques-uns d'entre eux que je suis sûr de pouvoir vous montrer... 
+          Mais il y en a d'autres à venir bientôt ! =)
+          </article>
+        </div>
+      </div>
+      <!--div class="container__content__page__cool-message">
+        <span>Ce sont mes chefs-d'œuvre! Vérifiez mon GitHub.</span>
+      </!--div>
+    </div>
+      `,
+      hireMePage: `
+      <div id="hire" class="container__content__page">
+      <div class="container__content__page__body">
+        <div class="container__content__page__body__information">
+          <h3 class="container__content__page__body__information__title">
+            Intéressé à travailler avec moi?
+          </h3>
+          <article class="container__content__page__body__information__body-text">
+            Vous pouvez me contacter dès aujourd'hui, afin que nous puissions parler de technologie et 
+            commencer à travailler ensemble. Créons quelque chose de nouveau et conquérons!
+            <br />
+            Contactez-moi via :
+            <b
+              ><a href="tel:00244956035826"
+                >Mon numéro de téléphone d'Angola (Whatsapp et iMessage)</a
+              ></b
+            >; Ou :
+            <b><a href="okusindja@gmail.com">Mon email</a></b>
+            Vous pouvez également visiter :
+            <b
+              ><a
+                href="linkedin.com"
+                target="blank"
+                rel="noopener noreferrer"
+                >Mon profil Linkedin</a
+              ></b
+            >. Envoyez-moi un message pour me contracter, je vous apporterai des beignets =)
+          </article>
+        </div>
+      </div>
+      <div class="container__content__page__cool-message">
+        <span>Engagez-moi maintenant, travaillons sur du cool !</span>
+      </div>
+    </div>
+      `,
+    },
   };
 
   let homePage = document.querySelector("#home");
@@ -694,7 +1030,8 @@ export function manageLanguages() {
   let languageMenu = `
   <div class="container__lang-list">
     <a href="#en" data-reload class="container__lang-list__item container__lang-list__item--active">EN</a>
-    <a href="#pt" data-reload class="container__lang-list__item">PT</a>
+    <a href="#pt" data-reload class="container__lang-list__item ">PT</a>
+    <a href="#fr" data-reload class="container__lang-list__item">FR</a>
   </div>
     `;
   let container = document.querySelector(".container__content");
@@ -721,6 +1058,25 @@ export function manageLanguages() {
       container.innerHTML = lang.pt.myProjectsPage;
     } else if (hirePage) {
       container.innerHTML = lang.pt.hireMePage;
+    }
+  } else if (window.location.hash === "#fr") {
+    menuItems.forEach((menuItem) => {
+      let actualRef = menuItem.getAttribute;
+      menuItem.setAttribute("href", actualRef + "#fr");
+    });
+
+    if (homePage) {
+      container.innerHTML = lang.fr.myHomePage;
+    } else if (aboutPage) {
+      container.innerHTML = lang.fr.aboutMePage;
+    } else if (skillsPage) {
+      container.innerHTML = lang.fr.mySkillsPage;
+    } else if (experiencePage) {
+      container.innerHTML = lang.fr.myExperience;
+    } else if (projectsPage) {
+      container.innerHTML = lang.fr.myProjectsPage;
+    } else if (hirePage) {
+      container.innerHTML = lang.fr.hireMePage;
     }
   }
   let languages = document.querySelectorAll(
@@ -757,13 +1113,10 @@ export function manageLanguages() {
             );
         }
       });
-    })
+    });
   }
 }
-
 
 document.addEventListener("DOMContentLoaded", () => {
   turnContentIntoCardByHoveringOnText();
 });
-
-
