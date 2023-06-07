@@ -8,13 +8,13 @@
 
 - 👯 I’m looking to collaborate on **every vanilla, react or react native**
 
-- 👨‍💻 My web portfolio is available at [https://okusindja.netlify.app](https://okusindja.netlify.app)
+- 👨‍💻 My web portfolio is available at [Okusindja's place](https://okusindja.netlify.app)
 
 - 💬 Ask me about **everything you need, we'll learn together**
 
 - 📫 How to reach me **okusindja@gmail.com**
 
-- 📄 Download my CV at [../assets/Okusindja-de-Almeida.pdf](../assets/Okusindja-de-Almeida.pdf)
+- 📄 Download my CV at [My curriculum](src/assets/Okusindja-de-Almeida.pdf)
 
 - ⚡ Fun fact **I'm trying to cure cancer with JavaScript**
 
