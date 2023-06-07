@@ -103,7 +103,7 @@ export function buildNav() {
               <i class="fa-solid fa-clipboard-user"></i>
               <span
                 ><a
-                  href="https://acrobat.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A87981cfc-8534-40d8-9fbc-1e93cc431c29"
+                  href="../assets/Okusindja-de-Almeida.pdf"
                   target="blank"
                   rel="noopener noreferrer"
                 >
@@ -213,7 +213,7 @@ export function buildNav() {
               <i class="fa-solid fa-clipboard-user"></i>
               <span
                 ><a
-                  href="https://acrobat.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A87981cfc-8534-40d8-9fbc-1e93cc431c29"
+                  href="../assets/Okusindja-de-Almeida.pdf"
                   target="blank"
                   rel="noopener noreferrer"
                 >
@@ -324,7 +324,7 @@ export function buildNav() {
               <i class="fa-solid fa-clipboard-user"></i>
               <span
                 ><a
-                  href="https://acrobat.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A87981cfc-8534-40d8-9fbc-1e93cc431c29"
+                  href="../assets/Okusindja-de-Almeida.pdf"
                   target="blank"
                   rel="noopener noreferrer"
                 >
