@@ -103,7 +103,7 @@ export function buildNav() {
               <i class="fa-solid fa-clipboard-user"></i>
               <span
                 ><a
-                  href="../assets/Okusindja-de-Almeida.pdf"
+                  href="../../Okusindja-de-Almeida.pdf"
                   target="blank"
                   rel="noopener noreferrer"
                 >
@@ -213,7 +213,7 @@ export function buildNav() {
               <i class="fa-solid fa-clipboard-user"></i>
               <span
                 ><a
-                  href="../assets/Okusindja-de-Almeida.pdf"
+                  href="../../Okusindja-de-Almeida.pdf"
                   target="blank"
                   rel="noopener noreferrer"
                 >
@@ -324,7 +324,7 @@ export function buildNav() {
               <i class="fa-solid fa-clipboard-user"></i>
               <span
                 ><a
-                  href="../assets/Okusindja-de-Almeida.pdf"
+                  href="../../Okusindja-de-Almeida.pdf"
                   target="blank"
                   rel="noopener noreferrer"
                 >
