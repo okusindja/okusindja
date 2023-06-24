@@ -184,6 +184,9 @@ export function manageLanguages() {
                 What's my experience?
               </h3>
               <article class="container__content__page__body__information__body-text">
+                <b>2023:</b> Interest Protocol as a Frontend Developer. Working
+                with Nextjs and TypeScript to deliver the best interfaces in the crypto market.
+                <br />
                 <b>2021-2022:</b> NSDev as a Frontend Developer. Working
                 mainly with JavaScript, HTML, CSS and ReactJS as main Framework.
                 <br />
@@ -526,6 +529,8 @@ export function manageLanguages() {
                   Qual é a minha experiência?
                 </h3>
                 <article class="container__content__page__body__information__body-text">
+                <b>2023:</b> Interest Protocol: como Desenvolvedor Frontend. Trabalhando com Nextjs
+                 e TypeScript para fornecer as melhores interfaces no mercado de criptomoedas. <br />
                   <b>2021-2022:</b> NSDev como um Frontend Developer. Trablhando
                   principalmente com JavaScript, HTML, CSS e ReactJS Framework principal.
                   <br />
@@ -865,6 +870,7 @@ export function manageLanguages() {
             Quelle est mon expérience?
           </h3>
           <article class="container__content__page__body__information__body-text">
+            <b>2023 :</b> Interest Protocol: en tant que Développeur Frontend. Travaillant avec Nextjs et TypeScript pour offrir les meilleures interfaces sur le marché de la crypto. <br />
             <b>2021-2022:</b> NSDev en tant que développeur Frontend. Travaillant principalement avec JavaScript, HTML, CSS et ReactJS comme principal Framework.
             <br />
             <b>2021-2022:</b> FRN Cubo en tant que membre de l'équipe d'évolution Frontend, et je résous des bugs, analyse des données et écris le meilleur et le plus propre code possible, en utilisant principalement VTEX CMS, Vtex IO et Vanilla JavaScript.
