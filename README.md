@@ -14,7 +14,7 @@
 
 - 📫 How to reach me **okusindja@gmail.com**
 
-- 📄 Download my CV at [My curriculum](src/assets/Okusindja-de-Almeida.pdf)
+- 📄 Download my CV at [My curriculum](src/assetsstatic/Okusindja-de-Almeida.pdf)
 
 - ⚡ Fun fact **I'm trying to cure cancer with JavaScript**
 
