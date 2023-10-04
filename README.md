@@ -2,9 +2,9 @@
 <!--h1 align="center">Hi 👋, I'm Okusindja</h1-->
 <h3 align="left">A passionate frontend developer from Angola</h3>
 
-- 🔭 I’m currently working on **React projects for training**
+- 🔭 I’m currently working on **React projects**
 
-- 🌱 I’m currently learning **Javascript, React, Nextjs, Expo and Threejs**
+- 🌱 I’m currently learning **Javascript, React and Threejs**
 
 - 👯 I’m looking to collaborate on **every vanilla, react or react native**
 
