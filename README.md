@@ -8,7 +8,7 @@
 
 - 👯 I’m looking to collaborate on **every vanilla, react or react native**
 
-- 👨‍💻 My web portfolio is available at [Okusindja's place](https://okusindja.netlify.app)
+- 👨‍💻 My web portfolio is available at [Okusindja's room](https://okusindja.com)
 
 - 💬 Ask me about **everything you need, we'll learn together**
 
